@@ -1,0 +1,57 @@
+#title {
+    color: #ccae2c;
+}
+
+#newUser {
+    color: #293986;
+    background-color: white;
+    font-size: small;
+}
+
+#newUser:hover {
+    color: white;
+    background-color: #293986;
+}
+
+.buttons {
+    margin-top: -20px;
+    margin-left: 390px;
+}
+
+label {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select {
+    width: 200px;
+    height: 35px;
+    border-radius: 2px;
+}
+
+.form-group {
+    width: 200px;
+}
+
+.form-control {
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+option {
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#small {
+    font-size: x-small;
+}
+
+#submit {
+    margin-left: 100px;
+    margin-top: 15px
+}
+
+// #fileUpload {
+//     margin-left: 150px;
+// }

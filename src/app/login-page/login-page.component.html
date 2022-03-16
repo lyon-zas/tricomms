@@ -1,0 +1,54 @@
+<div class="fluid">
+    <ul class="list">
+        <li class="list1"><b>TRITEK</b></li>
+        <li class="list2">Consulting Ltd</li>
+    </ul>
+    <div class="card">
+        <div class="card-header">
+            <h5 class="head">USER LOGIN</h5>
+            <div class="card-body">
+                <form class="form-horizontal" autocomplete="off" [formGroup]="loginForm" (ngSubmit)="submit($event)">
+                    <p class="info">Please Sign in to your Account</p>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="Input Username or Email" formControlName="userMail">
+                        </div><br>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Input Password or OTP" formControlName="password">
+                        </div><br>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                  <input type="checkbox"> Remember me
+
+                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin">
+                        <a id="admin" (click)="toAdminLoginPage()">Admin?</a>
+                    </div>
+                    <div class="form-group">
+                        <br>
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-light" [disabled]="!loginForm.valid" (submit)="submit($event)" id="submit">Login</button>
+                        </div>
+                    </div>
+                </form><br>
+                <div class="ref">
+                    <button class="btn btn-light" id="hovera" (click)=" resetPasswordPage()">
+                  Forgot password ?
+                </button>
+                </div>
+            </div>
+        </div>
+
+    </div><br>
+    <span class="list">
+      copyright © 2022 &nbsp;<a class="text-dark" href="https://tritekconsulting.co.uk">Tritek Consulting Limited</a>
+    </span>
+</div>

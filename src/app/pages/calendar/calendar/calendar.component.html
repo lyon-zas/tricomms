@@ -1,0 +1,22 @@
+<div class="body">
+    <div class="selector">
+        <app-selector></app-selector>
+    </div>
+    <div class="card" id="card">
+        <div class="card-header">
+            <h2>Calendar schedule</h2>
+            <button class="btn btn-primary" (click)="routeToChannel()">create channel</button>
+        </div>
+        <div class="main-content">
+            <div class="overflow">
+                <mat-card class="demo-inline-calendar-card">
+                    <mat-calendar [(selected)]="selected"></mat-calendar>
+                </mat-card>
+                <p></p>
+            </div>
+            <div class="selected">
+                <span> Selected date: {{selected}}</span>
+            </div>
+        </div>
+    </div>
+</div>

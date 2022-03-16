@@ -1,0 +1,52 @@
+#card {
+    margin-left: 213px;
+    position: relative;
+    margin-top: -580px;
+    height: 539px;
+    width: 1140px;
+}
+
+h2 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 10px;
+    color: #ccae2c;
+}
+
+#newUser {
+    color: #293986;
+    background-color: white;
+    font-size: small;
+}
+
+#newUser:hover {
+    color: white;
+    background-color: #293986;
+}
+
+#icons {
+    cursor: pointer;
+}
+
+.form-group {
+    width: 400px;
+}
+
+.form-control {
+    font-size: small;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+.main-content {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#head {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #293986;
+}

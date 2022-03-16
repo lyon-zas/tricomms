@@ -1,0 +1,67 @@
+.container {
+    margin-left: 210px;
+    position: relative;
+    margin-top: -550px;
+}
+
+#card {
+    height: 500px;
+}
+
+#matTab {
+    margin-left: 623px;
+    height: 505px;
+}
+
+.form-group {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 270px;
+    font-size: small;
+}
+
+#table {
+    margin-left: 30px;
+    width: 200px;
+}
+
+#col3,
+#col4 {
+    visibility: hidden;
+}
+
+#col4 {
+    font-size: small;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+table {
+    list-style: none;
+}
+
+#online {
+    background-color: rgb(83, 202, 83);
+    color: white;
+    border-radius: 2px;
+}
+
+#offline {
+    background-color: rgb(211, 51, 51);
+    color: white;
+    border-radius: 2px;
+}
+
+// .vl {
+//     border-left: 6px solid black;
+//     height: 500px;
+// }
+// .nav-tabs {
+//     cursor: pointer;
+// }

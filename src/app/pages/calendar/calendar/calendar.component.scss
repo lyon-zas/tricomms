@@ -1,0 +1,37 @@
+#card {
+    margin-left: 210px;
+    position: relative;
+    margin-top: -550px;
+    height: 500px;
+    width: 1150px;
+}
+
+h2 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 10px;
+    color: #ccae2c;
+}
+
+.main-content {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+button {
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color: #293986;
+}
+
+.demo-inline-calendar-card {
+    width: 300px;
+}
+
+.selected {
+    margin-left: 330px;
+    margin-top: -370px
+}

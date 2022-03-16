@@ -1,0 +1,316 @@
+mat-toolbar {
+    background: #293986;
+    color: black;
+    box-shadow: 1px 0.05px 5px #1f1c1c;
+    border-style: none;
+    cursor: pointer;
+}
+
+#toggle {
+    color: #ccae2c;
+    cursor: pointer;
+}
+
+#toggle:hover {
+    color: rgb(155, 193, 243);
+    cursor: pointer;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+mat-sidenav {
+    margin: 16px;
+    margin-left: 0px;
+    width: 210px;
+    height: 552px;
+    border-right: none;
+    background: #293986;
+    color: white;
+    border-radius: 2px;
+    padding: 16px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.content {
+    height: calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: lightgray;
+    border-radius: 10px;
+    // position: relative;
+    // text-align: center;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+    visibility: hidden;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+.buttomSideBar {
+    margin-top: 280px
+}
+
+#tritek {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ccae2c;
+    cursor: pointer;
+}
+
+mat-icon {
+    margin-right: 8px;
+}
+
+#role1 {
+    margin-left: 40px;
+}
+
+#role2 {
+    margin-left: 15px;
+}
+
+#role3 {
+    margin-left: 52px;
+}
+
+#role4 {
+    margin-left: 15px;
+}
+
+.name {
+    margin: 0;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation {
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: lightgrey;
+}
+
+.svg {
+    height: 75px;
+    width: 75px;
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+// search Filter below
+.form-control {
+    width: 500px;
+    font-size: small;
+}
+
+.form-group {
+    margin-left: 40px;
+}
+
+.notifications {
+    margin-left: 700px;
+}
+
+#notification1 {
+    color: #fff;
+    background-size: 50px 50px;
+    border-radius: 0.7em;
+}
+
+#image {
+    color: white;
+}
+
+#notification2 {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+}
+
+#sidebarButton1 {
+    background: #293986;
+    color: #ffff;
+    border-radius: 8px;
+    border-style: none;
+    height: 35px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -83px
+}
+
+#patient {
+    color: #ccae2c;
+}
+
+#patient:hover {
+    color: #06207A;
+}
+
+#sidebarButton1:hover {
+    color: #06207A;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.sideContent {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+#sidebarButton2 {
+    background: #293986;
+    color: #ffff;
+    border-radius: 8px;
+    border-style: none;
+    height: 35px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -63px
+}
+
+#sidebarButton2:hover {
+    color: #06207A;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#sidebarButton3 {
+    background: #293986;
+    color: #ffff;
+    border-radius: 8px;
+    border-style: none;
+    height: 35px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -83px
+}
+
+#sidebarButton3:hover {
+    color: #06207A;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#sidebarButton4 {
+    background: #293986;
+    color: #ffff;
+    border-radius: 8px;
+    border-style: none;
+    height: 35px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -63px
+}
+
+#sidebarButton4:hover {
+    color: #06207A;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+small {
+    font-size: x-small;
+}
+
+#footer1 {
+    height: 41px;
+    margin-top: -40px;
+    background-color: #f0f3f5;
+}
+
+#footer2 {
+    height: 41px;
+    margin-top: -40px;
+    background-color: #f0f3f5;
+}
+
+.text-dark {
+    text-decoration: none;
+    color: #06207A;
+    font-size: small;
+}
+
+.text-dark:hover {
+    text-decoration: underline;
+}
+
+// mat-sidenav-content {
+//     visibility: hidden;
+// }
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+#welcome {
+    margin-left: -320px;
+    color: white;
+}
+
+#userMail {
+    color: white;
+    font-size: small;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+    margin: left;
+}
+
+#dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#drodownList {
+    font-size: small;
+}
