@@ -2,7 +2,6 @@
   "name": "tri-comms",
   "version": "0.0.0",
   "engines": {
-    "node": "17.x.x",
     "npm": "8.5.3"
   },
   "scripts": {
@@ -11,7 +10,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng build — prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -50,4 +49,3 @@
   }
  
 }
-
